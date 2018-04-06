@@ -185,9 +185,9 @@
       const statusMessage = $row.find('.status-message').text();
       let confidence = computeConfidence(txn.vendorName);
       if (statusMessage.includes('suggestion')) {
-        confidence = (confidence * 40) + 40;
+        confidence = (confidence * 50) + 40;
       } else if (statusMessage.includes('prediction')) {
-        confidence = (confidence * 20) + 80;
+        confidence = (confidence * 10) + 90;
       } else {
         return;
       }
