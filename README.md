@@ -21,7 +21,7 @@ http-server static
 javascript:(()=>{var s = document.createElement('script');s.src='http://localhost:8080/inject.js';document.head.appendChild(s)})();
 ```
 
-(3.) Navigate to a reconciliation and click the button after the table has loaded.
+(3.) Navigate to a reconciliation and click the bookmarklet after the table has loaded.
 
 ## What changes?
 
